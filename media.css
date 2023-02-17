@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(0, 14, 14);
+}
+div{
+    
+    font-size: xx-large;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(31, 18, 1);
+}
+
+@media(max-width:600px){
+    body{
+        background-color: rgb(83, 3, 68);
+    }
+    div::after{
+    content: 'Screen size 600px'
+    
+    
+}
+}
+@media(min-width:600px){
+    body{
+        background-color:yellowgreen;
+    }
+    div::after{
+    content: 'Screen size 900px'
+    
+    
+    
+}
+}
+
+@media(min-width:900px){
+    body{
+        background-color:rgb(145, 143, 15);
+    }
+    div::after{
+    content: 'Screen size 1200px'
+
+    }
+
+}
+
+@media(min-width:1200px){
+    body{
+        background-color:rgb(198, 137, 242);
+    }
+    div::after{
+        content: 'Screen size 1200pxto above ';
+        
+    }
+
+    }
+
